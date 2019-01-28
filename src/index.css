@@ -1,14 +1,45 @@
 body {
-  margin: 0;
-  padding: 0;
+  background: url('./CinemaBackground.jpg');
+  margin: 0.5;
+  padding: 0.5;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+#titleBanner {
+  color: gold;
+  font-family: 'Limelight', cursive;
+  font-size: 3em;
+}
+
+#filmList {
+  font-family: 'Limelight', cursive;
+  font-size: 2em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#upcomingButton {
+  background-color: green;
+  color: black;
+  height: auto;
+  width: auto;
+  font-size: 2.5em;
+  font-family: 'Limelight', cursive;
 }
